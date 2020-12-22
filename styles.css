@@ -2,8 +2,10 @@
 
 :root {
     --primary-colour: #FF6395;
+    --dark-grey: #6B7280;
 }
-hr{
+
+hr {
     margin: 2rem 0rem;
 }
 
@@ -13,27 +15,31 @@ body {
 
 .container {
     padding: 0rem 1rem;
-   
+
 }
 
 .centercontainer {
     max-width: 600px;
     margin: auto;
 }
-.link{
+
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.primarylink{
+
+.primarylink {
     background-color: var(--primary-colour);
-    border-radius:0.5rem;
-    color: white 
+    border-radius: 0.5rem;
+    color: white
 }
-.secondarylink{
+
+.secondarylink {
     color: var(--primary-colour);
     border-radius: 0.5rem;
-    border:1px solid var(--primary-colour);
+    border: 1px solid var(--primary-colour);
 }
+
 .list-non-bullet {
     list-style: none;
     padding-inline-start: 0px;
@@ -44,21 +50,48 @@ body {
     padding: 0rem 0.5rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-colour);
     color: white;
-    padding: 1 rem
-    ;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation .nav-developer{
-font-weight: bold;
+.navigation .nav-developer {
+    font-weight: bold;
+    font-size: 1.1 rem;
 }
-.navigation .link{
+
+.navigation .link {
     color: white;
 }
-,navigation .nav-pills{
+
+.navigation .nav-pills {
     text-align: right;
+
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-grey);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-colour);
 
 }
