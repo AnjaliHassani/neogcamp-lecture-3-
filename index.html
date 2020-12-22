@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+    <link rel="stylesheet" href="styles.css
+    
+    
+    ">
 </head>
 
 <body>
@@ -15,20 +19,22 @@
     <small>this is very small</small>
     <hr>
     <h2>@container</h2>
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it goes till the end of the page.</div>
-    <h3>center container</h3>
-    <div>this is centered container and it will go till specified width</div>
+    <h3 >fluid container</h3>
+    <div class="container">This is a fluid container and it goes till the end of the page.</div>
+    <h3 >center container</h3>
+    <div class="centercontainer container">this is centered container and it will go till specified width</div>
     <hr>
-    <h2>@links</h2>
+    <h2
+    
+    >@links</h2>
 
-    <a href="https://www.google.com/">google</a>
-    <a href="https://www.instagram.com/">instagram</a>
+    <a class="link primarylink" href="https://www.google.com/">google</a>
+    <a class= "link secondarylink" href="https://www.instagram.com/">instagram</a>
     <hr>
 <h2>lists</h2>
     <h3>@Unordered list</h3>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>egg</li>
         <li>bread</li>
         <li>chocolate</li>
@@ -37,10 +43,10 @@
 
     <h3>@Unordered inline list</h3>
 
-    <ul>
-        <li>egg</li>
-        <li>bread</li>
-        <li>chocolate</li>
+    <ul class="list-non-bullet " style="display: inline";>
+        <li class="list-item-inline">egg</li>
+        <li class="list-item-inline">bread</li>
+        <li class="list-item-inline">chocolate</li>
     </ul>
 
 
@@ -49,19 +55,21 @@
     <ol>
         <li>egg</li>
         <li>bread</li>
-        <li>chocolate</li>
+        <li>chocolate</li-=]p
+            \
+            
     </ol>
 
 
 
     <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>I am a developer</div>
-        <ul>
-            <li><a href="/">home</a></li>
-            <li><a href="/">about</a></li>
-            <li><a href="/">projects</a></li>
+    <nav class="navigation container">
+        <div class="nav-developer">I am a developer</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link" href="/">home</a></li>
+            <li class="list-item-inline"><a class="link" href="/">about</a></li>
+            <li class="list-item-inline"><a class="link" href="/">projects</a></li>
 
         </ul>
     </nav>
